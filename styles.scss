@@ -1,0 +1,36 @@
+$primaryColor: #316D65;
+$whiteColor: #ffffff;
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    background: $primaryColor;
+    color: $whiteColor;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 6.0rem;
+}
+
+.logo {
+    width: 125px;
+}
+
+a {
+    color: $whiteColor;
+}
